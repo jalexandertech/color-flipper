@@ -71,8 +71,15 @@ main {
     font-weight: 700;
     text-align: left;
     letter-spacing: .25rem;
-    ;
 }
+
+@media screen and (max-width: 670px) {
+    .container .bg-color-text {
+        font-size: 1rem;
+    }
+}
+
+
 
 .container .btn {
     background: transparent;
