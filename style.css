@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+body {
+    max-width: 100%;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+    padding-top: 15px;
+    width: 100%;
+
+}
+
+.brand-name {
+    color: hsl(205deg 78% 60%);
+    letter-spacing: .25rem;
+    ;
+    font-weight: 700;
+}
+
+.nav-list li {
+    display: inline;
+    padding-left: 15px;
+    letter-spacing: .25rem;
+    ;
+    font-weight: 500;
+}
+
+
+main {
+    display: grid;
+    place-items: center;
+    min-height: calc(100vh - 3rem);
+    box-shadow: 5px 0 5px 1px gray;
+}
+
+.container {
+    text-align: center;
+}
+
+
+
+
+.container .bg-color-text {
+    background-color: black;
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px 32px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: .25rem;
+    ;
+}
+
+.container .btn {
+    background: transparent;
+    margin-top: 25px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 4px 5px 1px rgb(0, 0, 0);
+    transition: all 0.3s linear;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-hero {
+    padding: 15px;
+    font-size: 1rem;
+}
